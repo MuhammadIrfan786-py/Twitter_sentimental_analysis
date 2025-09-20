@@ -1,0 +1,13 @@
+{
+    "model_name": "bert-base-uncased",
+    "num_labels": 2,
+    "max_length": 128,
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "val_split": 0.2,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "experiment_name": "twitter_sentiment_bert",
+    "dagshub_url": "https://dagshub.com/YOUR_USERNAME/YOUR_REPO.mlflow"
+}
